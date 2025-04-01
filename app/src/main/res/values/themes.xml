@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SomDataBase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/aqua_light</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+
+    </style>
+
+
+    <style name="Theme.SomDataBase" parent="Base.Theme.SomDataBase" />
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/aqua_dark"
+    android:gravity="center_vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="80dp"
+        />
+
+
+    <EditText
+        android:id="@+id/LoginName"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_item"
+        android:hint="Enter Your E-mail"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_item"
+        android:hint="Enter Your Password"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:background="@drawable/edit_item2"
+
+        android:layout_gravity="center_horizontal"
+         />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:onClick="createNewAccount"
+        />
+</LinearLayout>

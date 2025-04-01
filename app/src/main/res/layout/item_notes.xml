@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="23dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:background="@color/aqua_dark"
+    app:cardBackgroundColor="@color/aqua_dark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edit_item2"
+
+
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleItemId"
+            android:text="this is title textview"
+            android:gravity="center_horizontal"
+            android:background="@drawable/edit_item"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"
+
+            />
+
+        <TextView
+            android:layout_margin="15dp"
+            android:id="@+id/itemDiscID"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_dummy"
+            android:textSize="20sp"
+            android:background="@drawable/edit_item2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

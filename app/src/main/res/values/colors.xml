@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+<!--    <color name="aqua_dark">#114F51</color>-->
+<!--    <color name="aqua_light">#49D5D9</color>-->
+<!--    <color name="aqua">#0BE6ED</color>-->
+<!--</resources>-->
+
+<resources>
+<color name="black">#03A9F4</color>
+<color name="white">#FFFFFFFF</color>
+<color name="aqua_dark">#000000</color>
+<color name="aqua_light">#011C28</color>
+<color name="aqua">#000000</color>
+</resources>
